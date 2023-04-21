@@ -1,0 +1,95 @@
+:root {
+  box-sizing: border-box;
+  --purple-dark: #522e75;
+  --purple-medium: #7646c1;
+  --purple-light: #a28cd3;
+  --teal-dark: #004b50;
+  --teal-medium: #007c7e;
+  --teal-light: #00a1a3;
+  background-color: #1c86ee;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.item-container {
+  display: grid;
+  grid-template-columns: 50px 300px 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  margin-left: 16px;
+  color: #fff;
+
+  font-size: 22px;
+}
+
+.del-btn {
+  background-color: #ff69b4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 1.5s ease;
+  margin-left: 50px;
+}
+
+.del-btn:hover {
+  background-color: #800080;
+}
+
+.form-box {
+  background-color: #ffff00;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-input {
+  width: 25%;
+  padding: 8px;
+  margin-bottom: 16px;
+  font-size: 20px;
+
+  border-radius: 4px;
+  background-color: #fff;
+  color: #1c86ee;
+}
+
+.form-submit {
+  background-color: #ff69b4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.form-submit:hover {
+  background-color: #800080; /* purple */
+}
+
+.title-txt {
+  padding: 16px;
+  background-color: #1c86ee;
+  color: #ffff00;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px #ff69b4;
+}
+
+.checkbox {
+  accent-color: red;
+  cursor: pointer;
+}
